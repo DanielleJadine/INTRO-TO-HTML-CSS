@@ -64,7 +64,43 @@ code is treated as an inline element meaning it remains part of the sentence its
 - the br element is a simple tag without opening or closing tag it doesnt contain anything inside it, it just indicates where the line breaks should happen
 -Using pre element
 when wanting to achieve spacing to be an integral part of contents meaning use the HTML and the pre element to achieve that
-
-
-
+-Using pre and code together
+pre and code elments are often comabined to display a code block with proper indentation to let the browswer know this is a block of code the whole thingg is wrapped in a code element to perserve formatting and spacing it was futher wrapped in pre element in the end we have code, br and pre elemnt working together these elemants come in handy for conveying the structure and apperance of code as well as other types of content
+Using superscript ,subscript and small
+when putting complex equations on a website ,you should look into MathMl its a specialized markup language for math and more powerful then what HTML can do 
+we often need a way to marking as fine print in other words small text that is not important but still needs to be included
+superscript ,subscript and small can help you get details right when it comes to   typography and conveying the full meaning of your content
+# HTML CAPABILITIES
+troubleshooting and debugging HTML code
+this is more of an inspection of HTML in  the browser developer tools before we move to the HTML elements 
+debugging code
+to demostrate this we have a demo in notepadd++ that showcases various HTML elements previously covered
+using browser devtools inspector
+yhe inspector shows a dom tree which is similar to a family tree of elements and is very helpful
+# HTML ATTRIBUTES
+- HTML offers additional capabilities through attributes which adds power to any element using global attributes
+- global attributes consists of four however when looking at global attributes in HTML that works universally we focus mostly on the highly useful ones which are the class attribute and the id attribute
+- the class attribute is the most commonly used
+Class and ID attributes
+another popular attribute is the ID which is similar to class but we can only use unique names one on an entire HTML page IDs come in handy when we need to address specfic elements in Javascript or targeted links
+-class and id provide a way to name HTML elements and reference them in other parts of code stack
+HTML offers many attributes that enhance user interaction and provide hooks into browser power however there are numeroud attributes like this ,which provide browser APIs to Javascript
+# ARIA ROLES
+-are like extra attributes that we can add to HTML elements to make them more meaningful and help browser understand what they represent
+Web or online accessbility image
+-ARIA roles come into play when we want to provide essential information to assistive technologies like screen raeders ,brailie displays and magnifiers to ensure a website is fully accessible
+Using the browser accessibility tree
+the accessibility tree is like a companion to the Dom tree ,which the browser creates from the websites content ,however it is crucial for assistive devices like screen readers.
+ARIA is a powerful tool that greatly enhances web accessibility and is worth exploring futher especially working with a team struggling with semantic HTML or building a complex appliciation interface ,its roles also provide the necessary tools to make your site accessible to everyone
+# FORMATTING HTML
+Exploring the inner workings f an HTML file and the options we have for formatting our code where as working with extra spaces browser will ignore it
+Working with comments in HTML
+-according to programmers they enhance code readability by adding comments that explain its purpose
+Working with upper-and lowercase in HTML
+-HTML evolved the web industry and embraced the idea of using lowercase letters for everything since in the early 80s and 90s everything was capitalised
+however there are still ancient websites with all-caps HTML and there are also newe sites that never use capital letters 
+-Working with self-closing elements in HTML
+a bunch of elements in this course most of them have opening and closing tags .The newer HTML elements always have both tags,however some of the older elements there are no closing tags
+# UNSUAL CHARACTERS
+-the symbols < ,> and & are important characters when it comes to HTML
 
