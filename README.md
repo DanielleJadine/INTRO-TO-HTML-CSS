@@ -103,4 +103,39 @@ however there are still ancient websites with all-caps HTML and there are also n
 a bunch of elements in this course most of them have opening and closing tags .The newer HTML elements always have both tags,however some of the older elements there are no closing tags
 # UNSUAL CHARACTERS
 -the symbols < ,> and & are important characters when it comes to HTML
-
+Code formatting in HTML
+-IN FIGURE41 the character entity was used ,these entities are formatted like , an ampersand ,a short code and a semicolon however you can include them in a HTML file they are converted into the specific file you prefer .We apply this technique to replace every instance of greater than or less than symbols with their corresponding character entities, the WC3 has a handy reference chart for all the character entities.
+Using non-breaking spaces in HTML
+-non-breaking space has a unique role and usually spaces in the text allow lines to break and works to remain intact
+More non-breaking spaces in HTML
+-we use a special kind of space called non-breaking space in HTML ,this tells the browser not to break the line between two words however non-breaking spaces can also create multiple spaces between words but the browser will only recognise the first space.
+# HTML NAVAIGATION AND LINKING
+HTML Links
+-whn wanting to create a link you would use the A element which stands for anchor: to achieve this you need to add an herf attribute with a URL enclosed in quotes the URL will take you to where the link is 
+HERF- HYPERTEXT REFERENCE
+Between the opening and closing A tags ,you can place text or image or even both to make them clickable howver by default the A element is inline and can be placed within a paragraph or any other text.
+-URLs can be very versatile because when linking to another website or specific page on the web you can include the entire URL, it does not matter if it has a trailing slash or not 
+-these types of URLs are called absoulte URLs because they point to a precise location on the web
+-in an absolute URL the HTTP or HTTPS part must be included which stands for Hypertext Transport Protocol
+-the difference betwwen HTTP and HTTPS is that the S stands for sercure
+Creating a relative URL 
+-is not only useful for  the A element linking but also it is a skill used to refernce image files, video files ,CSS,Javascript files or any other files where the path is specified
+Creating URLs from scratch
+- firslty take in how the files are organised
+- then think , about a bunch of files that are neatly organised into different directories or folders so if we want to link a blog post from March 9th instruct the browser to look inside the folder called (blog) and locate the folder named March-9html, however filenames come with extensions like html,jpg,CSS,js whereas folder names simply have names like (blog) or (people) withput any extensions
+Creating local URLs
+-when creating URLs it can either be relative or absolute .
+-relative URLs are based on the current files location,while absolute URLs start from the root of the website
+-by using folders and index html files, we can create clean and user-friendly URLs however using relative URLs can be extremely helpful ,especially when working on a project that moves from server to server
+# NAVIGATION
+Main navigation
+- each link is wrapped in a element with the correct URL and then enclosed in an (li) element to create a list of links to maintain the order ,wrap  the whole list in  a (ul) element which represents an unordered list.
+- finally encompass the entire menu in a (nav) element to indicate that it is the site navigation
+- give the menu some visual apperance so that it doesnt look plain also to attract the readers attention apply CSS styling
+ Breadcrumbs
+-the breadcrumb trail is another type of menu
+-however it uses an ordered list (ol) instead of an unordered list since the order of the links matter
+-but do not assign the role navigation to this menu instead we add an (aria label) of (breadcrumbs) to provide context when read aloud
+Footer links
+-these links are typically found at the footer of a page ,they are not part of the  sites navigation
+-no (nav) or (unordered list) are necessary here it is straightforward a representation of twp phrases linking to additional content 
