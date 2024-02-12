@@ -138,4 +138,15 @@ Main navigation
 -but do not assign the role navigation to this menu instead we add an (aria label) of (breadcrumbs) to provide context when read aloud
 Footer links
 -these links are typically found at the footer of a page ,they are not part of the  sites navigation
--no (nav) or (unordered list) are necessary here it is straightforward a representation of twp phrases linking to additional content 
+-no (nav) or (unordered list) are necessary here it is straightforward a representation of twp phrases linking to additional content
+# HTML Working with Graphics and images
+-when wanting to add a image to a webpage ,we use the image element ,which is written as img
+Image element
+-there are four attributes that need to be included in every image
+1. we have the source attribute (src) ,which tells the browser which image file to load
+2. then we have the alt attribute (ALT) which provides a text description of the image
+3. lastly we have the width and height attributes which determine the size of the image .
+Working with a image element
+-when the image`s URL is pasted into the source then the image wil start loading ,then add an ALT attribute which serves as a replacement for the image when it cannot be seen
+-we can also make ALT text intersing by describing the   
+
