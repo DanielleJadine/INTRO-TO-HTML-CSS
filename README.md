@@ -158,14 +158,17 @@ Basically speaking this shows us how to add an image to a web page and how to ma
 Figures can be used for more than just images but for interactive graphic 
 # Working with media
 Working with audio
-The audio element is different from the image element because it has both an opening and closing tag < audio controls src =“audio.mp3” >
+The audio element is different from the image element because it has both an opening and closing tag it makes it more modern and gives it more power and flexibility
+< audio controls src =“audio.mp3” >
 Working with video
-Just like the audio element ,video element also has a opening and closing tag ,to display a video use the source attribute to specify the video file 
+Just like the audio element ,video element also has a opening and closing tag ,to display a video use the source attribute to specify the video file and if the controls attribute is added the browser will automatically create a video player
 Working with Captions and subtitles
 We are going to use the track element and link it to a text file to add captions to the video, this element adds functionality to the video player allowing viewers to toggle captions on and off or switch between different subtitle options 
 Embedding Media via Iframes
-Iframe element has attributes like height and width that can be adjusted, the src attribute is used to specify the source of the video file.
-It is common practice to embed complex content from a service that handles the technical aspects
+-it is more likely that you will utilize a video service this involves embedding the video player they offer onto a webpage
+-Embedding refers to taking content from one site and placing it within the middle of another sites page
+-Iframe element has attributes like height and width that can be adjusted, the src attribute is used to specify the source of the video file.
+-It is common practice to embed complex content from a service that handles the technical aspects
 <!—Iframe=embed content from another source into an HTML document ex. Used for ads ,used in many hacking techniques>
 # Content identification
 The internet is worldwide and people speak various languages ,in HTML there are tools to indicate the language of your content.
