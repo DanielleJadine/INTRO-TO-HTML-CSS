@@ -141,18 +141,18 @@ Footer links
 -no (nav) or (unordered list) are necessary here it is straightforward a representation of twp phrases linking to additional content
 # HTML Working with Graphics and images
 -when wanting to add a image to a webpage ,we use the image element ,which is written as img
-Image element
+# Image element
 -there are four attributes that need to be included in every image
 1. we have the source attribute (src) ,which tells the browser which image file to load
 2. then we have the alt attribute (ALT) which provides a text description of the image
 3. lastly we have the width and height attributes which determine the size of the image .
-Working with a image element
+# Working with a image element
 -when the image`s URL is pasted into the source then the image wil start loading ,then add an ALT attribute which serves as a replacement for the image when it cannot be seen
 -we can also make ALT text intersing by describing the image
-Responsive images
+# Responsive images
 Html allows us to deliver different image files to screens of different sizes. We can create multiple images files and include them as options in our HTML code.
-Responsive width
+# Responsive width
 Instead of specifying the pixel density like one x, two x, etc indicate the width of each file ,then the browser will decide which image to show based on device density and viewport width
-Figcaption and figures
+# Figcaption and figures
 Basically speaking this shows us how to add an image to a web page and how to match a caption to the image
 Figures can be used for more than just images but for interactive graphic 
