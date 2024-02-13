@@ -148,5 +148,11 @@ Image element
 3. lastly we have the width and height attributes which determine the size of the image .
 Working with a image element
 -when the image`s URL is pasted into the source then the image wil start loading ,then add an ALT attribute which serves as a replacement for the image when it cannot be seen
--we can also make ALT text intersing by describing the 
-
+-we can also make ALT text intersing by describing the image
+Responsive images
+Html allows us to deliver different image files to screens of different sizes. We can create multiple images files and include them as options in our HTML code.
+Responsive width
+Instead of specifying the pixel density like one x, two x, etc indicate the width of each file ,then the browser will decide which image to show based on device density and viewport width
+Figcaption and figures
+Basically speaking this shows us how to add an image to a web page and how to match a caption to the image
+Figures can be used for more than just images but for interactive graphic 
