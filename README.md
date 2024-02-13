@@ -139,7 +139,7 @@ Main navigation
 Footer links
 -these links are typically found at the footer of a page ,they are not part of the  sites navigation
 -no (nav) or (unordered list) are necessary here it is straightforward a representation of twp phrases linking to additional content
-# HTML Working with Graphics and images
+# HTML Working with Graphics and images 
 -when wanting to add a image to a webpage ,we use the image element ,which is written as img
 # Image element
 -there are four attributes that need to be included in every image
@@ -149,10 +149,39 @@ Footer links
 # Working with a image element
 -when the image`s URL is pasted into the source then the image wil start loading ,then add an ALT attribute which serves as a replacement for the image when it cannot be seen
 -we can also make ALT text intersing by describing the image
-# Responsive images
+ Responsive images
 Html allows us to deliver different image files to screens of different sizes. We can create multiple images files and include them as options in our HTML code.
-# Responsive width
+ Responsive width
 Instead of specifying the pixel density like one x, two x, etc indicate the width of each file ,then the browser will decide which image to show based on device density and viewport width
-# Figcaption and figures
+ Figcaption and figures
 Basically speaking this shows us how to add an image to a web page and how to match a caption to the image
 Figures can be used for more than just images but for interactive graphic 
+# Working with media
+Working with audio
+The audio element is different from the image element because it has both an opening and closing tag < audio controls src =“audio.mp3” >
+Working with video
+Just like the audio element ,video element also has a opening and closing tag ,to display a video use the source attribute to specify the video file 
+Working with Captions and subtitles
+We are going to use the track element and link it to a text file to add captions to the video, this element adds functionality to the video player allowing viewers to toggle captions on and off or switch between different subtitle options 
+Embedding Media via Iframes
+Iframe element has attributes like height and width that can be adjusted, the src attribute is used to specify the source of the video file.
+It is common practice to embed complex content from a service that handles the technical aspects
+<!—Iframe=embed content from another source into an HTML document ex. Used for ads ,used in many hacking techniques>
+# Content identification
+The internet is worldwide and people speak various languages ,in HTML there are tools to indicate the language of your content.
+<html lang=“en -US”>
+…
+</html>
+The lang attribute
+-the lang attribute is used to specify the language of a webpage
+The meta attribute
+-to specify the charset in HTML simply include a meta charset tag that equals UTF-8. Place this meta element  within the head element on every page of the website
+<meta charset=“UTF-8”>
+HTML Generic elements ,Div and Span
+<div> BLOCK LEVEL ELEMENT
+<span>- INLINE ELEMENT
+Essentially these elements do nothing until CSS or javascript is applied to them.
+
+
+
+
