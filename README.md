@@ -1,4 +1,4 @@
-# INTRO-TO-HTML-CSS
+![image](https://github.com/DanielleJadine/INTRO-TO-HTML-CSS/assets/159023227/11b829cc-e309-49e0-8bb3-a06c5c814cb6)# INTRO-TO-HTML-CSS
 
 # HTML INTRODUCTION
 HTML forms the foundation of a website and web app development
@@ -171,20 +171,62 @@ Embedding Media via Iframes
 -It is common practice to embed complex content from a service that handles the technical aspects
 <!—Iframe=embed content from another source into an HTML document ex. Used for ads ,used in many hacking techniques>
 # Content identification
-The internet is worldwide and people speak various languages ,in HTML there are tools to indicate the language of your content.
+The internet is worldwide and people speak various languages ,in HTML there are tools to indicate the language of your content,by setting things up the correct way search engines will understand whichnlanguage websites are in
 <html lang=“en -US”>
 …
 </html>
 The lang attribute
 -the lang attribute is used to specify the language of a webpage
+-set the language on the main elment that wraps everything else which is usually the HTML element 
+-the lang attribute has many options not only to indicate language or regional versions of a langage but also other qualities like the writing system used.
+-however, it is also important to specify the contents direction ,use the dir attribute to indicate the direction and it can be applied to any element
+-when there is a mix of content ensure to indicate the change in direction for each phrase is set
 The meta attribute
+-Unicode particularly UTF-8 is widely used it is like massive specification that encodes content to support a vast range of characters ,scripts and even emojis.
+-Unicode started with around 7000 characters in 1991 and has expanded to over 137000 aiming to encompass all languages,scripts and communication forms like Brallie and musical notation
+-inform the browser about the character set being used
 -to specify the charset in HTML simply include a meta charset tag that equals UTF-8. Place this meta element  within the head element on every page of the website
+-By definig the lang,dir and charset for a project you contribute to a more inclusive future for the web
 <meta charset=“UTF-8”>
 HTML Generic elements ,Div and Span
 <div> BLOCK LEVEL ELEMENT
 <span>- INLINE ELEMENT
 Essentially these elements do nothing until CSS or javascript is applied to them.
-
+# HTML Intergration
+HTML Page
+HTML and all the elements ,attributes ,roles and tools used to mark up content on websites or web apps have been covered.HTML plays a major role in explaining what these things are ,but it is not just limited to that because HTML files are a vital part of the web
+-When you want to visit a website you open a web browser or web view and enter a URL,the web server responds by sending back the specific HTML file located at the address
+ Standard HTML page head
+ - text is often stored in databases and multiple static files are combined in real-time customized for each user
+ -visual styling is in CSS files,Javascript is in separate Javascript files and there are additional files for images ,video, audio and ads
+ -users visit a URL which prompts a request for an HTML file ,and the server returns a single HTML file
+ -the browser reads the file and follow its intructions ,this process is consistent everytime so that the initial HTML file that is returned when a web page is requested is incredibly important it serves as the central hub for everything that happens after the site first loads
+ -Once the browser gets the file it starts reading it immediately and follows the instructions one by one
+ Structure of the whole HTML file
+ -the build system or cms may not have a single file containing all this code ,but there are templates or theme files that determine what gets sent,however once the HTML file is built there are a few crucial parts that every web page needs.
+    1.the file should begin wit a doctype statement ,which indicates the era of this HTML file ,however in the past there were different doctype declarations for older HTML versions
+    2. next we enclose everything else on the page within an HTML element which means an element named HTML ,it tells us that all the content within it is HTML place the opening HTML tag at the top and the closing HTML tag at the bottom
+- At the beginning specify a few things about the web page ,declare the language being used and the content flow direction ,this code is for a website using US-English that reads from left to right 
+ -Inside the HTML element there are two main parts where evrything goes;the head and the body, create them using the head and body elements.
+ -the head contains all the metadata that the browser needs to know but will not display on the page 
+ -the body on the other hand is for all the content and is composed of various elements already discussed in this course,the body is where most of the action happens.
+ -The doctype declaration ,HTML head and body elements are the essential building blocks of every web page.
+Document Head
+-Inside the head of the webpage you put important information that the browser needs to know about the website
+-the character set is not something you want your users to see it is intented for the browser ,to convey the use of the meta element
+ -ensure thst meta elements sre only plsced inside the head as they provide ,metadata about the page.
+ HTML file head section
+ -the web page tile is what appears on the browser tab or bookmark when it is saved,also the name appears under top sites when a new browser is opened
+The meta element –one common use is to inform the browser that the layout has been adjusted to fit small screens making it  a responsive website
+The link element- is a crucial component used extensively within the head section
+The script element –is commonly used element in an HTML documents head it instructs the browser to load a Javascript file
+Content Structuring consists of six important elements
+1 Main-is used once per webpage and tells the browser where the main content is located
+2.Header-the header and footer elements mark the head and footer areas on the page. The head is where the files metadata lives and is not displaye to users and the header is used for site headers ,article headers and headers within content .A header is usually found at the top of most web pages and may include a logo,site name and navigation. 
+3 Footer-sigifies that there are extra things to convey regardless of the positon on the page
+4 Article-
+5 Section
+6 Aside
 
 
 
