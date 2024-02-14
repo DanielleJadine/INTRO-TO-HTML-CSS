@@ -1,4 +1,4 @@
-![image](https://github.com/DanielleJadine/INTRO-TO-HTML-CSS/assets/159023227/11b829cc-e309-49e0-8bb3-a06c5c814cb6)# INTRO-TO-HTML-CSS
+INTRODUCTION TO HTML AND CSS
 
 # HTML INTRODUCTION
 HTML forms the foundation of a website and web app development
@@ -224,9 +224,9 @@ Content Structuring consists of six important elements
 1 Main-is used once per webpage and tells the browser where the main content is located
 2.Header-the header and footer elements mark the head and footer areas on the page. The head is where the files metadata lives and is not displaye to users and the header is used for site headers ,article headers and headers within content .A header is usually found at the top of most web pages and may include a logo,site name and navigation. 
 3 Footer-sigifies that there are extra things to convey regardless of the positon on the page
-4 Article-
-5 Section
-6 Aside
+4 Article-Often starts with a title ,subtitle,authors name and publication date which can also be considerd a header ,however some articles begin with metadata like hastags or share buttons which are suitable for a footer element
+5 Section-is used to mark sections of content ,its also useful for dividing different topic zones on a website ,each section typically starts with its own headline
+6 Aside-is for content that is off to the side like sidebar information or additional details that accompany an article but are not part of its main flow
 
 
 
