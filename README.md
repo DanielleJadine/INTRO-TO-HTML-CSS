@@ -4,7 +4,7 @@ INTRODUCTION TO HTML AND CSS
 HTML forms the foundation of a website and web app development
 is responsible for the marking up content of a website
 known as a declarative language
-
+HTML-Hypertext Markup Language
 # HTML SYNTAX
 Used  to structure web pages
 uses tags ,which are enclosed in less-than and greater -than symbols
