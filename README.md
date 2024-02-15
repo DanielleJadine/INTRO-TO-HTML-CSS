@@ -245,7 +245,6 @@ Other form element types
 -these are very similar in structure to the text and email form fields for the password field ,the type equals password, search and phone number is type equals ;tel, when we start to type into the password field,the browser is warning us not to use this textbox as the site is unsecured and that is because this page is set up to us HTTP and not HTTPs .
 -users should not fill out forms like this on sites that have not been secured by HTTPs ,especially not passwords some browsers will bring up an intergrated password manager on password fields to help the user fill in their pasword faster.
 -the search field appears a bit to different ,some browsers have a different look and feel for search and will bring up a slighty different keyboard the phone number field will prompt many devices to provide a telephone pad for the keyboard which makes sense when entering a phone number 
-
 <form action=“success.html” method =“get”>
 <label for=“name” > Name</label>
 <input name=“name” id=“name”  type=“text”>
