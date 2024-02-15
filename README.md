@@ -227,6 +227,30 @@ Content Structuring consists of six important elements
 4 Article-Often starts with a title ,subtitle,authors name and publication date which can also be considerd a header ,however some articles begin with metadata like hastags or share buttons which are suitable for a footer element
 5 Section-is used to mark sections of content ,its also useful for dividing different topic zones on a website ,each section typically starts with its own headline
 6 Aside-is for content that is off to the side like sidebar information or additional details that accompany an article but are not part of its main flow
+ 
+# HTML Working with forms and interactive elements
+
+Form fundamentals
+-Form fields have  been an essential part of the web for a long time , its important to use semantic elements in HTML instead od divs and spans because it allows us to leverage the built-in power of the browser 
+-because it allows us to leverage the built-in power of the browser,this way we avoid wasting time and effort trying to recreate functionalities that already exists in the browser
+-moreover,bu using HTML form elements ,we ensure that forms will be compatible with all devices and input/output hardware even those we may be familar with 
+Working with forms
+-to create a form, we start with the form element which informs the browser about the presence of a form using opening and closing tags, in  a sign up form there will be tow fields : name and email  these field names can be turned into labels using the label element .Use the input element to provide places for users to input their name and email and unlike other elements the input element does not have a closing tag due to its older structure
+-it acts as a marker for the browser to bring in functionality and place it there ,this is where the magic forms ,now a button is needed for users to submit the form use the button element for this
+-the text on the button can be customized to whatever is required ,although the form looks good visually it currently lacks functionality
+-to achieve this we need to make a backend ,we can add an action and method attribute to make a demo work,although using the "get" method is not secured and is not recommended for real websites
+-once set up land on the response page, but the data that was entered does not appear ,this is because the input fields need a "name" attribute to report the data 
+Other form element types
+-here are the exact same name and email form elements along with a button just with better styling ,add three more fields ;password,search and phone number to see what they can do
+-these are very similar in structure to the text and email form fields for the password field ,the type equals password, search and phone number is type equals ;tel, when we start to type into the password field,the browser is warning us not to use this textbox as the site is unsecured and that is because this page is set up to us HTTP and not HTTPs .
+-users should not fill out forms like this on sites that have not been secured by HTTPs ,especially not passwords some browsers will bring up an intergrated password manager on password fields to help the user fill in their pasword faster.
+-the search field appears a bit to different ,some browsers have a different look and feel for search and will bring up a slighty different keyboard the phone number field will prompt many devices to provide a telephone pad for the keyboard which makes sense when entering a phone number 
+
+<form action=“success.html” method =“get”>
+<label for=“name” > Name</label>
+<input name=“name” id=“name”  type=“text”>
+
+
 
 
 
