@@ -249,7 +249,16 @@ Other form element types
 <label for=“name” > Name</label>
 <input name=“name” id=“name”  type=“text”>
 
-
+# Organizing Tabular Infromation in HTML
+HTML tables
+-you may have heard somewhere that HTML tables are evil and that you shouldnt use them ,in fact you should use them whenyour content is a tble however what you shouldnt do is misuse them
+-the whole point of semantic HTML is to tell computers everywhere what the thin is you have ,eg if you have a button use the button element ,if you have a table use the table element
+-long time ago when the web was an infant we did not have CSS ,basically we ddnt have the proper tools for styling or laying out our content on a web page those had yet to be invented
+-so people did all kinds of things to try and create styling and some form of layout , we typeset our headlines in photoshop and exported them as images so people looking at it would see something beautiful
+-the problem wasnt the actual headline it was the picture of the headline,without the proper tools to layout content on the web page people used to take their content and break it up into many pieces and place those into the cells of an HTML table,though this worked it was a horrible hack
+-things may have looked okay or even good but the semantics were terrible ,the content was not accessible it was not reuseable or not findable however there is still one place this technique is used which is in HTML email but this is not what tables should not be used for ,it should be used for tabular data so we going to make as if the email thing isnt happening.
+ Example of tabular data
+ -a chart of data from a research project ,that is a table a bunch of information by aligning things into rows
 
 
 
