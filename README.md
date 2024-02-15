@@ -258,7 +258,18 @@ HTML tables
 -the problem wasnt the actual headline it was the picture of the headline,without the proper tools to layout content on the web page people used to take their content and break it up into many pieces and place those into the cells of an HTML table,though this worked it was a horrible hack
 -things may have looked okay or even good but the semantics were terrible ,the content was not accessible it was not reuseable or not findable however there is still one place this technique is used which is in HTML email but this is not what tables should not be used for ,it should be used for tabular data so we going to make as if the email thing isnt happening.
  Example of tabular data
- -a chart of data from a research project ,that is a table a bunch of information by aligning things into rows
+ -a chart of data from a research project ,that is a table a bunch of information by aligning things into rows and coloums that is a data table ,when you decide to instert a table into the document ,when do you decide if you going to use excel instead of word? or google sheets instead of google docs?
+ -this is how you decide to use a table in HTML because there is specific information that is best conveyed in a table,comparing prices of things tat are for sale ,population data by town ,election results,product comparisions ,schedules ,bits of information collected that people want to quicly compare .
+ -this is what tables are for ,the data might be numbers but not alwys it could even be text,images or other things as long as there is a semantic reason for the data to be organized into a table that meaning is added by an arrangement into rows or columns the table conveys a relationship between the data cells and the header cells between one column oe row and te next
+ -if that is the nature of the information at hand then use a table in HTML to semantically mark it up as what it is ,you can use CSS to rearrange how a table is displayed changing the layout for different sized screens is also okay it does not always have to look like a table but what matters is that if the information is inherently a table ,then use a HTML table.
+ Building HTML Tables
+ -to create an HTML table you use serval different HTML elements in just the right combination: Table,TR,TH and TD
+   -The table element wraps around the whole table around all your content and markup for that table ,marking the beginning and end of the table itself ,the tr element stands for table row and wraps its self around a set of elements defining them as belonging to the same row ,the th element stands for table header and defines a header for a column ,the td element stands for table data and marks cells up for data
+   <table></table>
+   <tr></tr>
+   <th></th>
+   <td></td>
+   
 
 
 
