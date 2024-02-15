@@ -192,6 +192,7 @@ HTML Generic elements ,Div and Span
 <div> BLOCK LEVEL ELEMENT
 <span>- INLINE ELEMENT
 Essentially these elements do nothing until CSS or javascript is applied to them.
+ 
 # HTML Intergration
 HTML Page
 HTML and all the elements ,attributes ,roles and tools used to mark up content on websites or web apps have been covered.HTML plays a major role in explaining what these things are ,but it is not just limited to that because HTML files are a vital part of the web
