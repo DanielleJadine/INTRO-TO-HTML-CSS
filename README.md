@@ -269,8 +269,41 @@ HTML tables
    <table></table>
    <tr></tr>
    <th></th>
-   <td></td>
-   
+   <td></td
+        
+ # INTRODUCTION TO CSS
+ -CSS ,short for cascading style sheets is the language that controls the pretty stuff on websites.Html and CSS workhand in hand to create the visual aspects of a webpage
+ What is CSS?
+ -A style sheet is like a CSS file that holds all the styles for a webpage,that adds visual appeal to a webpage ,to connect the Html and Css you simply link them together Html and Css are closely conneted and works hand in hand with each other however before we go futher into Css lets take a look at Html
+ Plain browser HTML page
+ -HTML is all about recognizin commonly used elements such as paragraphs ,headings ,lists and links etc that define the structure of a webpage ,when viewing raw Html in a web browser it looks pretty awful and ugly.
+ -A style sheet within the browser determines this unattractive apperance with Times New Roman font ,bold headings and understandable webpages using only HTML they are certainly not pleasing to the eye to make our pages look better by changing the font colors and spacing we need CSS:
+ -CSS has two parts, 1.The selector 2.The declaration block
+ -The selector specifies a pattern in the Html and if the pattern matches the styles within the declaration block are applied to the corresponding Html elements,it is possible to have multiple styles applied to the same pattern and that is where the cascading part of Css comes into play.
+ -In Css ,each style declaration consists of two parts which is A property and A value
+ -The first aspect of Css is the selector because it is essential to be able to select specific elements in HTML,without that ability understanding the properties and values will not be very useful
+ Writing your first Comment and Element Selector
+ -To get started with Css,we willl begin by writing simple Css code for your document,in the exercise files locate the link to the starting sublime text for this section titled "01-01-start writing your first element selector" ,when opening it you will find a set of headings ,subheadings and paragrphs that we can work with
+ Css Selector
+ -in the exercise file example,we have an H1 representating the name of our site ,H+ sport,followed by a paragraph an H2 for company history and another H2 for guarantee and ideals which includes guarantee and philanthropy sections,there are several pararaphs in between.
+ -There are also a few notes like an HTML comment at the top ,indicating that Html comments are different from Css coments ,in Css comments are written with a slash star and you can leave yourself comments too for reference while writing code now lets focus on selectors.
+ -The first type is the element selector,if you want to select all the paragraphs on our page and make them blue,we can use the HTML element "p" as the selector ,so in our Css we write "p" without the angle brackets and set the color property to blue as simple as that however we can make it more complex later on.
+ -If we want to make all the H2s red for example we use the selector H2 in the Css again,we use the color property and set it to red ,now all the H2s on our page will be red 
+ Writing a Class Selector
+ -in our current work all paragraphs have the same blue color however we want to make a specific paragraph green so then we can assign classes to  Html elements to create a reference point for styling , a class attribute that can be added to any Html elements providing additional details about the element
+ Start Class Selector
+ -Start with the Html code,if we want the first paragraph to be green we can add a class attribute to the paragraph tag and give it a name like"intro" ,this way it will stand out as the introductory paragraph in Css we use a dot(.) before the class name to differentiate its form HTML element selectors.
+ -Write "intro" and set the color to green ,now if we want to style a specific part of a paragraph differently we can use a span element with a class attribute for example make the sentence about the guarantee orange and bold ,you fo this by adding the span tag with class="gurantee" around that sentence in Html.
+ -Then in Css, we write ".guarantee" to select that class and set the color to orange and the font-weight to bold
+ Finish class selector
+ -Take the sentence "Philanthropy is extremely important to us" and make it black,bold,and all uppercase,a starting point has already been provided with the setting of the class name as "important" and the Css property"text" transforms:"uppercase",find a way to select that sentence in the Html and complete the style by making black and bold.
+ Grouping Selectors
+ -There are times when you want to apply the same style to different types of selectors e.g if we want all the paragraphs on the page to be green ,you should know how to do this as it was explained above.
+ Start Group Selector
+ -now consider making list items green too,take a look at the Html and consider how we would achieve that most likely it would be written as<li>{green;},however if we had many other elements and classes that also needed to be green it would mean that this would be a lot of repetitive code if this route was followed so this is where grouping selectors come in handy instead if writing seprarte styles for <i>p</i> and <li></li> we can combine them using a comma :<i>p.li<i>{green;} the web browser will apply this style to all paragraphs and list items evaluating each one individually.
+ -what about using Css we can do that tooo!
+ Finish Group Selector
+ -lets say we want to make thr words "mineral water" ,we can add min<i>eral<i> to the selector where min<eral> is the name of our class then inside the Html we can apply the class to the specific text using <spanmineral> mineralwater </s pan> this will make the word mineral water green too ,so whenever you see slectors grouped together with commas,it means each of those items is a separate selector ,whether its paragraphs ,list iteams or anything with the class "mineral" the text will be atyled as green 
 
 
 
