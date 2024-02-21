@@ -304,6 +304,51 @@ HTML tables
  -what about using Css we can do that tooo!
  Finish Group Selector
  -lets say we want to make thr words "mineral water" ,we can add min<i>eral<i> to the selector where min<eral> is the name of our class then inside the Html we can apply the class to the specific text using <spanmineral> mineralwater </s pan> this will make the word mineral water green too ,so whenever you see slectors grouped together with commas,it means each of those items is a separate selector ,whether its paragraphs ,list iteams or anything with the class "mineral" the text will be atyled as green 
+# CSS Images and colors
+Identify a color scheme
+-When it comes to color ,it may seem simple however it is a topic that deserves its own course the goal is to choose a color scheme or specific colors for your website .
+-if you have to design a background you can create it yourself ,if you struggle with colors not to worry there are plenty of resources that can help you.
+-We will explain Canvas approah but if you search for a color palette genertor on Google ,there are many other options available
+-Canva is like a friendly graphic design companion for non-designers ,they offer three different methods for creating color palettes 
+-the first one displayed at the the top of their webpage and you can findthe link in the exercise files, Canva extracted some colors from the donut picture that you canuse for a webpage about donuts, another way to create a color palette generator .
+-Next we have a photo of people in a canoe,notice that we extracted colors directly from the image ,such as dark green,pinkish and lighter grays however if you continue clicking you will find various options for demo images,so if you come accross an image you fancy and want to use its color scheme simply upload it to Canva and you may have discovered a palette that suits your website.
+Color Pallette Generator Demo
+-there are varoius color palettes available and these are just a few examples they have, you can explore many more options they have
+Formatting Color in CSS
+-after selecting a color palette the next is to incorporate it into your code, it might sound straightforward since this has already been covered in tis course.
+-up to this point we have been using what is referred to as named colors ,these are colors that have specific names assigned to them however while there are millions of colors available online only a limited number of them have names in CSS.
+Named Colors
+-the provided color chart displays some examples of these named colors that can be used in code, however it is important to note that your color palette may not include any named colors and there are only around 130 of them available so what do you do if the color you want to use doesnt have a name
+-the most common way to represent colors online is through hex codes also known as hex values or hex format ,hex is short for hexadecimal
+-hex values are typically six-digits long and consists of numbers zero to nine and letters A to F 
+-the first two digits represent red ,the next two represent green and the final two represent blue ,these digits correspond to numbers ranging from zero to 255
+-Canvas color palettes also display hex values,color names and hex values are most commonly used for working wit colors on the web
+-while editing other peoples CSS you may come across different syntax worth-mentioning for instance,the hex value "7778899"can be shortened to "789" if each two-digit pair is the same ,this three-digit format is relatively common but only applicable when numbers are identical
+Other Color Formats
+-another syntax you might encounter is the RGB format ,where colors are written out using Base 10 numbers to specify the red,green, and blue channels ,this formats can also be represented as an eight-dight hex number or RGBA ,in both cases the last number (e.g,CC in the RGB value ) corresponds to Alpha which relates to opacity and transparency of the color.
+-it determines how well we can see through the color,other color formats like HSL OR HSLA may also be used occasionally , particularly within platforms like squarespace  converting color formats is a breeze! just enter your color value into google and it will provide you with a color picker that offers various conversions colorpickers
+-if you prefer DuckDuck ,go it also gives you color conversions along with complementary and analogues colors for your website ,another option is to visit the color Hex website where you can explore shades ,tints , and color palettes specific to your choosen color  depending on the specific information you need any of these resources can come in handy
+Background Text Color in CSS
+-In the excersie files,you will find links to the starting and ending states for Sublime Text along with additional resources lets begin by testing a named color
+02-03 Start-Background and Text Color in CSS
+-In the H1 section ,there is a lovely pink color ,but it is hard to read on a white background ,to find a color we like refer to the named color chart provided in the excercise files, scroll down, and choose a teal color by changing the pink to teal , we can see that it works well on our webpage
+-another approach is to select a color palette , there is one called "Fiery Cracked Earth" in Canva which includes the colors you may want to use it as it is important to note that Canva assigns names to these colors but they may not work in Sublime Text 
+-Instead work with the hex values provided on the CSS named colors chart e.g if you want to use the alternative teal color for an H2 copy the hex values provided on the CSS named Colors Chart e.g if you want to use the alternative teal color for an H2 copy the hex code from Canva and replace the existing color in the CSS
+Common types of fonts
+-Common font types in CSS refers to different styles of fonts that can be applied to text which there are two types:
+-Serif-fonts with small line or ”feet” at the end of characters , they are more  associated with a traditional ,formal appearance
+-Sans Serif- fonts without the small lines at the end of characters ,they typically have a modern look
+Applying type formatting
+-To apply text formatting in CSS ,you can use various properties to control the appearance of text
+-Including font-family , font-size , font-style , font-weight, text-align , text decoration and color among others
+-You can adjust these properties according to your design requirements to achieve the desired type formatting for your website .
+Applying size in CSS
+-To apply size in CSS ,you can use various properties to control the dimensions of elements.
+-Including width height ,padding ,margin and border 
+-You can adjust these properties according to your design requirements to control the size and spacing elements of your website
+
+
+
 
 
 
