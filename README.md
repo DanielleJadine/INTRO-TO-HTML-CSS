@@ -330,10 +330,37 @@ Other Color Formats
 -if you prefer DuckDuck ,go it also gives you color conversions along with complementary and analogues colors for your website ,another option is to visit the color Hex website where you can explore shades ,tints , and color palettes specific to your choosen color  depending on the specific information you need any of these resources can come in handy
 Background Text Color in CSS
 -In the excersie files,you will find links to the starting and ending states for Sublime Text along with additional resources lets begin by testing a named color
-02-03 Start-Background and Text Color in CSS
+02-03 Start Background and text in color
 -In the H1 section ,there is a lovely pink color ,but it is hard to read on a white background ,to find a color we like refer to the named color chart provided in the excercise files, scroll down, and choose a teal color by changing the pink to teal , we can see that it works well on our webpage
 -another approach is to select a color palette , there is one called "Fiery Cracked Earth" in Canva which includes the colors you may want to use it as it is important to note that Canva assigns names to these colors but they may not work in Sublime Text 
 -Instead work with the hex values provided on the CSS named colors chart e.g if you want to use the alternative teal color for an H2 copy the hex values provided on the CSS named Colors Chart e.g if you want to use the alternative teal color for an H2 copy the hex code from Canva and replace the existing color in the CSS
+-we can also change the background color for elements, by using the "background-color" property and specify a hex color , color the background behind specific elements for readabiltity adjust the text color as well ,for instance set the  text color to white using the hex code"FFF" or"FFFFFF" for white background
+02-03 Finish -Background and text Color in CSS
+-Lets continue to the undered list(ul), instead of using a text color set it up as a background color then choose the beige color from canva and apply it as the background color for the ul,lastly remember that we can also style the entire webpage using the "body" HTML element by selecting a specific color such as the yellow color from canva you can change the background color for thhe entire page giving it a different look than the default white
+-lets wrap it up ,we have covered the idea of using colors in the text and background elements you can choose a color for text and another color for background whether it is a specific element or the entire page we also demonstrated how you can select colors from the named color palette or create your own custom colors using canva
+Understanding images in CSS
+-Imanges are frequently found on webpages ,they can be added either in HTML or CSS firstly we will discuss the image formats suitable for the web and then explore how to include using CSS and HTML
+Common web images types
+-there are various image formats like GIF , PNG , JPEG ,BITMAP, TIFF and more proprietary formats like PSD,traditionally the web has supported three types of image formats 
+1.GIF-has limited colors but could include transparency and animation
+2.PNG- has more colors and transparency but no animation .GIF and PNG were suitable for illustrations such as logos or cartoons
+3.JPEG- stands for joint photographic Experts Group was optimed for photographs ans supported millions of colors but lacked transparency and animation
+-recently a new image format called WebP  has emerged ,WebP csn be used for any image type and offers high compression for smaller file sizes resulting in faster website loading times its expected that WebP will grow in populartity due to its versatility and efficiency in loading both photos and illustrations quickly with small file sizes, when working with images it is important to choose the right format ,saving a photograph as a GIF would result in color loss and potentially larger file sizes ,another tip is to make images smaller for faster downloads and this can be achieved by adjusting the dimensions of the image to the required size, trimming or cropping unnecessary parts, and resizing the image.
+-images taken directly from mobile phone or cameras are usually large and take longer to download once the dimensions are set , reducing the file size helps optimize the image faster loading
+-tools like tinypng.com or Adobe Photoshop can be used to reduce image files sizes e.g an image on tinypng.com was reduced from 57 kilobytes to 15 kilobytes without any loss in quality ,taking this extra step improves website loading speed and enhances the user experience
+-Now that you have an understanding of images lets explore how to include them inqwbpages using HTML and CSS ,in HTML you can use the image element to place an image on the webpage alongside the text ,these images are crucial for conveying the pages message such as logos or social media icons ,on the other hand CSS allows you to include background images which are purely decorative and not essential to the webpages text
+-Background images can repeat or display only a portion of the image based on configuration ,lets delve into some of these properties in code
+Working with Background images in CSS
+-you will now adding background images to our webpage ,first check the images we are working with inside the CSS you will find two background images as comments you can see the property background image , and the URL value enclosed in parenthes
+-copy the URL and paste it into a new tab to view the images , the "blue dots" image consists of multiple blue dots whie the "Lil CSS,no code growth" image has a different design .its important to preview the images before using them
+02-05 Starting Working with Background images
+-now apply the "blue dot " image to the webpage ,remove the comment and add it as the background image for the body element in HTML,notice that the image size is smaller than what it appears on the page ,but it adjusts well
+-Background images flex and can tile both horizontally (X-axis) and vertically (Y-axis), creating a wallpaper effect ,this works nicely for low  contrast images like the "blue dots" alternatively you can assign the background image to specifc elements ,such as an H1 heading and it will only fill the space.
+-the text may look tight against the edges and things might appear unpleasant at this point , but we will improve it later in the course
+02-05 Finish-Working with Background Images
+-by experimenting with different background images and properties you can enhance the visual appeal of our webpage , the image set as the background of the UL looks a bit awkward in this case ,so make it better by changing the bottom to around 50% this will reduce the empty space and show more of the plant in this specific instance
+Understanding type in CSS
+-Unattractive and poorly designed websites bother most people and they agree that there is something undenibly wrong with the way the pages
 Common types of fonts
 -Common font types in CSS refers to different styles of fonts that can be applied to text which there are two types:
 -Serif-fonts with small line or ”feet” at the end of characters , they are more  associated with a traditional ,formal appearance
