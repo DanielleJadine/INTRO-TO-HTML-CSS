@@ -1,5 +1,5 @@
-INTRODUCTION TO HTML AND CSS
-
+               INTRODUCTION TO HTML AND CSS
+       
 # HTML INTRODUCTION
 HTML forms the foundation of a website and web app development
 is responsible for the marking up content of a website
@@ -359,20 +359,48 @@ Working with Background images in CSS
 -the text may look tight against the edges and things might appear unpleasant at this point , but we will improve it later in the course
 02-05 Finish-Working with Background Images
 -by experimenting with different background images and properties you can enhance the visual appeal of our webpage , the image set as the background of the UL looks a bit awkward in this case ,so make it better by changing the bottom to around 50% this will reduce the empty space and show more of the plant in this specific instance
-Understanding type in CSS
--Unattractive and poorly designed websites bother most people and they agree that there is something undenibly wrong with the way the pages
+# Understanding type in CSS
+-Unattractive and poorly designed websites bother most people and they agree that there is something undenibly wrong with the way the pages,the main issues are the fonts and the spacing
+-lets start by discussing fonts in this chapter ,spacing will be covered later,already you have some knowledge about fonts so we will build upon that
 Common types of fonts
+In general people who are not designers usually categorize fonts so that its more simple
 -Common font types in CSS refers to different styles of fonts that can be applied to text which there are two types:
--Serif-fonts with small line or ”feet” at the end of characters , they are more  associated with a traditional ,formal appearance
--Sans Serif- fonts without the small lines at the end of characters ,they typically have a modern look
-Applying type formatting
+-Serif-fonts with small line or ”feet” at the end of characters , they are more  associated with a traditional ,formal appearance,when letters were manually set on a printing press ,they were never perfectly aligned ,the serifs helped connect the letters making the text easier to read on the other hand 
+-Sans Serif- fonts without the small lines at the end of characters ,they typically have a modern look with computer typesetting san serif fonts are mainly used on the web for extented text because they look clean and are easy to read.
+-so what is the default font used on the web you might ask well it is usually Times New Roman ,but not always becaause web fonts are a bit more complicated than print fonts because they depend on where the fonts come frpm, people access web pages using various devices like phones , tablets and desktop computers even though some individuals have many fonts installed ,while others only have the default fonts on thier devices .
+-When a font is not specifically listed your web page will call for a font from the users device ,this limits your font choices when working with CSS to ensure compatibility it is common to specify multiple fonts at once known as font stack for instance a common font stack is arial, helvetica ,san serif however arial is commonly availble on pcs  ,helvetica on macs and sans serif is a fallback that requests the devices default sans serif font if arial or helvetica are not available.
+03-02 Start Applying type formatting
 -To apply text formatting in CSS ,you can use various properties to control the appearance of text
 -Including font-family , font-size , font-style , font-weight, text-align , text decoration and color among others
 -You can adjust these properties according to your design requirements to achieve the desired type formatting for your website .
-Applying size in CSS
+-this property allows us to change the fonts on the page use a font stack starting with arial ,the helvetica and finally sans serif ,the web browser will evaluate these fonts in order if aerial is installed it will be displayed otherwise it will try helvetica
+-if neither is available the default sans-serif font on the computer will be used on your computer have both aerial and helvetica installed ,if we look at the plus sign on the page we can easily compare the two fonts and when aerial is removed from the font stack
+Understanding and Applying size in CSS
+-up until now the size of our text has been determined by the web browser default style sheet ,there is nothing inherently bad about these sizes but sometimes you may feel the need to modify them or apply them electively to specific sections in text
 -To apply size in CSS ,you can use various properties to control the dimensions of elements.
 -Including width height ,padding ,margin and border 
 -You can adjust these properties according to your design requirements to control the size and spacing elements of your website
+Font measurement and size
+-inweb design there are two types of sizing absolute and relative ,absolute sizes such as points or pixels remain the same regardless of the screen size , on the other hand relative units like percentages or R-E-M can adjust based on the page size when zoomed the font sizes using relative units scale proportionally wit the rest of the page this is why designers often prefer using relative units for better flexibility
+Font Size conversion
+-according to web developers the preferred font size unit is usually rem ,in simple terms 1 rem is equivallent to 16 pixels so if the font size is specified as 1.5 rem you can mulitply it by 16 to get the size in pixels which would be approximately 24 pixels 
+-conversely if the font size is set as 0.8 rem it is roughly the same as 13 pixels ,luckily you dont have to perform these calculations manually because there are numerous online calculators availble for this purpose
+Point to REM Converter
+-this is the point to REM converter tool found on codebeautify.org. you can access it through the provided link in your exercise files , when working with web design some people find it easier to think in pixels rather than rem especially if theyr receive sizes in points from their designer which is common in print design
+-this calculater helps you convert between different sizes used on the web
+-similary if a graphic designer tells you to use 18 points the converter will give  you the equivalent in rem ,which in this case would be 1.5 rem its important to note that rem can have decimal values 
+03-03 Start Understanding and Applying size in CSS
+-According to the statement there is no rule stating that your lower-level headings (h2,h3,h4,etc) must be smaller than the h1 heading 
+-in certain situations you might actually prefer the h1 ro be smaller and the h3 to be larger , it is important to note that the default sizes for headings are determined by your browsers style sheet ,it is crucial to maintain the proper order of headings for accessibility and document outlining purpose
+Understanding the Box Model in CSS
+-The web page we have created looks decent with the basic CSS we applied , however one major issue is the lack of spacing we can see that there is not enough room between the text and color bars
+The Box Model
+-in web development every HTML element is like  a box with different properties are always present even if their value is the border which is like a line surrounding the content
+-we can choose to display all four sides of the border or just a few ,and there are various styles available for the border, next we have the padding which is the space between the border and the content it can also have its own background color
+-when we add padding we are essentially pushing the edge of the box away from the content,outside the border there is the margin which represents the space between the border and the content 
+-it can also have its background color when we want to separate intersecting elemenst adding some margin will do the trick
+-we can assign properties to individual sides or apply them to all four sides at once
+
 
 
 
