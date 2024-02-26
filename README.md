@@ -1,4 +1,4 @@
-               INTRODUCTION TO HTML AND CSS
+![image](https://github.com/DanielleJadine/INTRO-TO-HTML-CSS/assets/159023227/007d04c6-be8e-4a6b-8aca-396ba74d3641)               INTRODUCTION TO HTML AND CSS
        
 # HTML INTRODUCTION
 HTML forms the foundation of a website and web app development
@@ -400,6 +400,30 @@ The Box Model
 -when we add padding we are essentially pushing the edge of the box away from the content,outside the border there is the margin which represents the space between the border and the content 
 -it can also have its background color when we want to separate intersecting elemenst adding some margin will do the trick
 -we can assign properties to individual sides or apply them to all four sides at once
+-outside the border there is the margin which represents the space between the border and the content ,it can also have its own background color when we want to add separate intersecting elements adding some margin will do the trick 
+-there are shorthand properties to individual sides or apply them to all four sides at once ,there are shorthand values avaiablr for border, paddimg and margin which provide a more concise way to set these properties
+Applying dimensions to the box mode;
+-starting from the top of the slide we can add a red border of one pixel thickness using the CSS property"border:1px solid red",this will create a soild red border around the element ,now if we use the property "border-left" it will only apply the red border to the left side of the box while the other sides remain unaffected similary when it comes to setting margins using "margin:1rem" will add one REM (root em) of margin to all four sides of the box
+Working with Border ,Padding and Margin in CSS
+-after learning about border,padding and margin it is time to put that knowledge into pratice on a webpage
+03-05 Start Working with border, padding and margin in CSS
+-currently an image has been added to the page and there are some issues we need to address ,to fix these problems start with the body element which has a default margin from the browser style sheet ,remove that margin by setting it to zero
+# Advanced CSS properties and conceptStyling with links
+Styling links with CSS allows us to customize their appearance to match the design of the website , you can change their color , underline , hover effects , and more
+Inheritance in CSS
+Refers to the mechanism by which certain properties of  a parent element are passed down to its children
+This means that child elements inherit specific styles from their parent elements reducing the need to explicitly define those styles for each child element
+Not all properties are inherited by default : only certain properties , such as font properties
+Debbugging CSS with borders and background colorsDebugging CSS with borders and background colors can help you visualize the layout and positioning of elements on a webpage.
+BORDERS
+Adding borders to elements can help you see their boundaries and spacing more clearly ,you can use borders to identify the size and positioning of elements relative to each other.
+BACKGROUND COLORS
+Setting background colors for elements can also aid in debugging by making it easier to distinguish between different parts of your webpage.
+By adding these styles selectively to elements or containers that you want to inspect or troubleshoot ,you can identify layout issues ,alignment problems, or unintended overlaps more easily ,once you have identified and resolved the issues you can remove the debugging styles from your CSS. 
+
+
+
+
 
 
 
