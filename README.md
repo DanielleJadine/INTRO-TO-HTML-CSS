@@ -1,4 +1,4 @@
-![image](https://github.com/DanielleJadine/INTRO-TO-HTML-CSS/assets/159023227/007d04c6-be8e-4a6b-8aca-396ba74d3641)               INTRODUCTION TO HTML AND CSS
+ INTRODUCTION TO HTML AND CSS
        
 # HTML INTRODUCTION
 HTML forms the foundation of a website and web app development
@@ -419,7 +419,7 @@ BORDERS
 Adding borders to elements can help you see their boundaries and spacing more clearly ,you can use borders to identify the size and positioning of elements relative to each other.
 BACKGROUND COLORS
 Setting background colors for elements can also aid in debugging by making it easier to distinguish between different parts of your webpage.
-By adding these styles selectively to elements or containers that you want to inspect or troubleshoot ,you can identify layout issues ,alignment problems, or unintended overlaps more easily ,once you have identified and resolved the issues you can remove the debugging styles from your CSS. 
+By adding these styles selectively to elements or containers that you want to inspect or troubleshoot ,you can identify layout issues ,alignment problems, or unintended overlaps more easily ,once you have identified and resolved the issues you can remove the debugging styles from your CSS.  
 
 
 
