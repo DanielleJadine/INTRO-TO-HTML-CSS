@@ -13,7 +13,7 @@ however these tags work together to define elements
 an entire HTML document is a bunch of HTML elemnts nested inside each other
 the browser uses the DOM tree to create accessibility
 pay attention to where we open and close tags and how we nest elements within each other ,it helps convey meaning about the content and interfaces.
-# HTML PARAGRAPHS/ ARTICLES
+# HTML PARAGRAPHS/ ARTICLES'.
 Firstly ,there is a opening tag for the article 
 inside you will find a headline followed by three paragraphs
 however the third paragraph has a emphasized text for effect
